@@ -266,6 +266,15 @@ main {
   transition: transform 0.22s ease, border-color 0.22s ease, box-shadow 0.22s ease, opacity 0.22s ease;
 }
 
+.zoomable-panel {
+  cursor: zoom-in;
+}
+
+.zoomable-panel:focus-visible {
+  outline: 2px solid rgba(234, 193, 109, 0.75);
+  outline-offset: 2px;
+}
+
 .panel::before {
   content: '';
   position: absolute;
@@ -675,6 +684,64 @@ tr:hover td {
   color: white;
   font-size: 1.4rem;
   cursor: pointer;
+}
+
+.panel-modal {
+  position: fixed;
+  inset: 0;
+  display: none;
+  place-items: center;
+  background: rgba(2, 8, 18, 0.9);
+  backdrop-filter: blur(4px);
+  z-index: 1300;
+  padding: 1rem;
+}
+
+.panel-modal.open {
+  display: grid;
+}
+
+.panel-modal-dialog {
+  width: min(96vw, 1560px);
+  max-height: 92vh;
+  border-radius: 1rem;
+  border: 1px solid rgba(208, 224, 249, 0.3);
+  background: linear-gradient(165deg, rgba(9, 27, 56, 0.98), rgba(6, 18, 38, 0.98));
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+  position: relative;
+}
+
+.panel-modal-content {
+  padding: 1rem;
+  max-height: 92vh;
+  overflow: auto;
+}
+
+.panel-modal-content .panel {
+  margin-top: 0;
+  opacity: 1 !important;
+  transform: none !important;
+  cursor: default;
+}
+
+.panel-modal-content .table-wrap {
+  max-height: calc(92vh - 240px) !important;
+}
+
+.panel-modal-close {
+  position: absolute;
+  top: 0.7rem;
+  right: 0.7rem;
+  width: 2.2rem;
+  height: 2.2rem;
+  border: 1px solid rgba(214, 229, 251, 0.32);
+  border-radius: 999px;
+  background: rgba(12, 27, 52, 0.82);
+  color: #f3f7ff;
+  font-size: 1.3rem;
+  cursor: pointer;
+  z-index: 2;
 }
 
 .fade-in {

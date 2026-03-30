@@ -150,6 +150,62 @@ function setupLightbox() {
   });
 }
 
+function setupPanelModal() {
+  const modal = el('#panelModal');
+  const dialog = modal?.querySelector('.panel-modal-dialog');
+  const content = el('#panelModalContent');
+  const closeBtn = el('#panelModalClose');
+  const panels = Array.from(document.querySelectorAll('.zoomable-panel'));
+
+  if (!modal || !dialog || !content || !closeBtn || !panels.length) return;
+
+  const open = (panel) => {
+    const title = panel.getAttribute('data-zoom-title') || panel.querySelector('.panel-head h2')?.textContent || '卡片详情';
+    const clone = panel.cloneNode(true);
+    clone.classList.remove('zoomable-panel');
+    clone.classList.add('zoomed-panel');
+    clone.querySelectorAll('[id]').forEach((node) => node.removeAttribute('id'));
+    content.innerHTML = '';
+    content.appendChild(clone);
+    dialog.setAttribute('aria-label', `${title}（放大查看）`);
+    modal.classList.add('open');
+    modal.setAttribute('aria-hidden', 'false');
+    document.body.style.overflow = 'hidden';
+  };
+
+  const close = () => {
+    modal.classList.remove('open');
+    modal.setAttribute('aria-hidden', 'true');
+    content.innerHTML = '';
+    document.body.style.overflow = '';
+  };
+
+  panels.forEach((panel) => {
+    const title = panel.getAttribute('data-zoom-title') || panel.querySelector('.panel-head h2')?.textContent || '卡片详情';
+    panel.setAttribute('role', 'button');
+    panel.setAttribute('tabindex', '0');
+    panel.setAttribute('aria-label', `点击放大查看：${title}`);
+    panel.addEventListener('click', (event) => {
+      if (event.target.closest('a, button, input, select, textarea')) return;
+      open(panel);
+    });
+    panel.addEventListener('keydown', (event) => {
+      if (event.key === 'Enter' || event.key === ' ') {
+        event.preventDefault();
+        open(panel);
+      }
+    });
+  });
+
+  closeBtn.addEventListener('click', close);
+  modal.addEventListener('click', (event) => {
+    if (event.target === modal) close();
+  });
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape' && modal.classList.contains('open')) close();
+  });
+}
+
 function renderTimeline(data) {
   const list = el('#timelineList');
   list.innerHTML = data.timeline
@@ -383,6 +439,7 @@ async function init() {
     renderDownloads(data);
     setupHeroTitleToggle();
     setupLightbox();
+    setupPanelModal();
   } catch (error) {
     document.body.innerHTML = `<main class="container" style="padding: 2rem;"><h2>数据加载失败</h2><p>${String(error)}</p></main>`;
   }
