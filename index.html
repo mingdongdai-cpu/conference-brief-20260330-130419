@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>天狮2026非洲区表彰大会项目页</title>
+  <link rel="icon" href="./assets/奖杯.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&family=Noto+Sans+SC:wght@400;500;700;900&family=Noto+Serif+SC:wght@500;700;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="bg-orb orb-a"></div>
+  <div class="bg-orb orb-b"></div>
+  <div class="grain"></div>
+
+  <header class="hero" id="top">
+    <video class="hero-video" autoplay muted loop playsinline>
+      <source src="./assets/主视觉视频动态效果.mp4" type="video/mp4" />
+    </video>
+    <div class="hero-overlay"></div>
+    <div class="hero-content container">
+      <button class="hero-title-toggle" id="heroTitleToggle" type="button" aria-expanded="true">隐藏标题</button>
+      <div class="hero-info" id="heroInfo">
+        <p class="kicker">Conference Project Dashboard</p>
+        <h1 id="eventTitle">加载中...</h1>
+        <p class="subtitle" id="eventSubtitle"></p>
+        <p class="hero-brief">面向管理层的大会执行总览：统一展示规模、流程、预算与关键物料状态。</p>
+        <div class="hero-meta" id="heroMeta"></div>
+        <div class="hero-actions">
+          <a href="#timeline" class="btn btn-primary">查看执行总流程</a>
+          <a href="#budget" class="btn btn-ghost">查看预算与物料</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container page-layout">
+    <section class="top-grid">
+      <section class="panel" id="visuals">
+        <div class="panel-head">
+          <h2>大会物料实拍</h2>
+          <p>点击任意图片可放大查看细节。</p>
+        </div>
+        <div class="gallery" id="imageGallery"></div>
+      </section>
+    </section>
+
+    <section class="insight-grid">
+      <section class="panel" id="attendance">
+        <div class="panel-head">
+          <h2>分公司参会人数</h2>
+          <p>聚焦参会结构与规模区间，为现场资源配置提供依据。</p>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>序号</th>
+                <th>分公司/国家</th>
+                <th>人数范围</th>
+                <th>最小值</th>
+                <th>最大值</th>
+                <th>备注</th>
+              </tr>
+            </thead>
+            <tbody id="branchTable"></tbody>
+          </table>
+        </div>
+        <div class="total-box" id="branchTotal"></div>
+      </section>
+
+      <section class="panel" id="budget">
+        <div class="panel-head">
+          <h2>预算总览</h2>
+          <p>按项目类别梳理成本结构，支持管理层快速决策。</p>
+        </div>
+        <div class="table-wrap budget-table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>项目类别</th>
+                <th>规格</th>
+                <th>CFA</th>
+                <th>USD</th>
+              </tr>
+            </thead>
+            <tbody id="budgetTable"></tbody>
+          </table>
+        </div>
+        <div class="total-box" id="budgetTotal"></div>
+      </section>
+
+      <section class="panel" id="staffing">
+        <div class="panel-head">
+          <h2>服务保障配置</h2>
+          <p>安保、志愿者、会务及总控人员分工明细。</p>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>分组</th>
+                <th>分组总人数</th>
+                <th>岗位</th>
+                <th>人数</th>
+              </tr>
+            </thead>
+            <tbody id="staffingTable"></tbody>
+          </table>
+        </div>
+        <div class="total-box" id="staffingTotal"></div>
+      </section>
+    </section>
+
+    <section class="panel" id="timeline">
+      <div class="panel-head">
+        <h2>官方执行总流程（Run of Show）</h2>
+        <p>按时间轴完整展开五大篇章与22个环节</p>
+      </div>
+      <div class="timeline" id="timelineList"></div>
+    </section>
+
+    <section class="panel" id="materials">
+      <div class="panel-head">
+        <h2>大会物料清单</h2>
+        <p>按会场/屏幕分类展示完整字段信息，便于逐项核对与汇报。</p>
+      </div>
+      <div class="material-groups" id="materialGroups"></div>
+      <div class="total-box" id="materialSummary"></div>
+    </section>
+
+    <section class="panel" id="downloads">
+      <div class="panel-head">
+        <h2>原始文件下载</h2>
+        <p>汇报版所用附件与多媒体文件下载入口。</p>
+      </div>
+      <div class="download-list" id="downloadList"></div>
+    </section>
+  </main>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox-close" id="lightboxClose" type="button" aria-label="关闭">×</button>
+    <img class="lightbox-image" id="lightboxImage" alt="放大预览" />
+    <p class="lightbox-caption" id="lightboxCaption"></p>
+  </div>
+
+  <footer class="footer container">
+    <p>TIENS Africa Convention Workspace · 自动生成于本地素材数据</p>
+    <a href="#top">回到顶部</a>
+  </footer>
+
+  <script src="./data.js" defer></script>
+  <script src="./app.js" defer></script>
+</body>
+</html>

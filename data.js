@@ -1,0 +1,1343 @@
+window.CONFERENCE_DATA = 
+{
+  "meta": {
+    "title": "天狮 2026 非洲区表彰大会（TIENS 2026 Africa Regional Recognition Convention）",
+    "subtitle": "官方执行总流程表（Run of Show）",
+    "date": "2026年7月18日（星期六）",
+    "location": "多哥洛美 BBS OMNISPORT（体育场）",
+    "scale": "10,000人（非洲各国高级经销商、多哥本地骨干、政商领袖）",
+    "tone": "荣耀、狂欢、非中交融、财富引爆"
+  },
+  "timeline": [
+    {
+      "type": "chapter",
+      "time": "16:00 - 18:00",
+      "section": "预热篇章",
+      "title": "万人集结与狂欢热场",
+      "mission": "完成万人入场安检，拉升现场温度，完成开场前全链路确认"
+    },
+    {
+      "type": "item",
+      "seq": 1,
+      "time": "16:00 - 17:30",
+      "chapter": "预热篇章",
+      "segment": "万人入场 & 区域拉歌",
+      "mission": "万人有序入场与安检，按国家方阵落位。",
+      "content": "大屏循环天狮全球宣传片；主持人引导拉歌互动。",
+      "av": "大屏循环宣传片；安保广播引导。",
+      "owner": ""
+    },
+    {
+      "type": "item",
+      "seq": 2,
+      "time": "17:30 - 17:45",
+      "chapter": "预热篇章",
+      "segment": "热场高潮：天狮专属舞蹈秀",
+      "mission": "舞蹈团队高能热场，形成首轮情绪峰值。",
+      "content": "本地专业伴舞团队领舞，全场万人共舞。",
+      "av": "动感BGM+追光+舞台全彩灯。",
+      "owner": ""
+    },
+    {
+      "type": "item",
+      "seq": 3,
+      "time": "17:45 - 18:00",
+      "chapter": "预热篇章",
+      "segment": "VIP莅临 & 倒计时准备",
+      "mission": "确保VIP准时入座并完成开场倒计时准备。",
+      "content": "17:59全场主灯变暗，大屏开启60秒倒计时。",
+      "av": "倒计时视频+低频鼓点渐强。",
+      "owner": ""
+    },
+    {
+      "type": "chapter",
+      "time": "18:00 - 18:45",
+      "section": "第一篇章",
+      "title": "盛典启幕与领袖愿景",
+      "mission": "准点开场，建立国家级礼仪感与政商共赢格局"
+    },
+    {
+      "type": "item",
+      "seq": 4,
+      "time": "18:00 - 18:10",
+      "chapter": "第一篇章",
+      "segment": "庄严时刻：三国/司歌联奏",
+      "mission": "塑造仪式感与国际礼仪标准。",
+      "content": "全场肃立，依次演奏多哥国歌、中国国歌、天狮司歌。",
+      "av": "主扩全开；国旗与司歌画面切换。",
+      "owner": ""
+    },
+    {
+      "type": "item",
+      "seq": 5,
+      "time": "18:10 - 18:15",
+      "chapter": "第一篇章",
+      "segment": "东道主致欢迎词",
+      "mission": "完成官方欢迎与东道主表达。",
+      "content": "多哥分公司经理致辞并欢迎非洲各国代表团。",
+      "av": "讲台麦启用；欢迎词主题板上屏。",
+      "owner": ""
+    },
+    {
+      "type": "item",
+      "seq": 6,
+      "time": "18:15 - 18:25",
+      "chapter": "第一篇章",
+      "segment": "董事局主席致辞（视频）",
+      "mission": "传达最高战略指示。",
+      "content": "播放董事局主席高清演讲视频。",
+      "av": "视频服务器A/B备份；字幕核对。",
+      "owner": ""
+    },
+    {
+      "type": "item",
+      "seq": 7,
+      "time": "18:25 - 18:35",
+      "chapter": "第一篇章",
+      "segment": "高级经销商代表致辞",
+      "mission": "通过真实案例拉升台下渴望。",
+      "content": "顶尖经销商分享逆袭致富故事。",
+      "av": "追光锁定；观众反应镜头实时上屏。",
+      "owner": ""
+    },
+    {
+      "type": "item",
+      "seq": 8,
+      "time": "18:35 - 18:45",
+      "chapter": "第一篇章",
+      "segment": "多哥政府官员致辞",
+      "mission": "形成国家级官方背书。",
+      "content": "政府官员肯定天狮在就业与经济方面贡献。",
+      "av": "礼宾引导登台；结束后礼仪合影。",
+      "owner": ""
+    },
+    {
+      "type": "chapter",
+      "time": "18:45 - 19:20",
+      "section": "第二篇章",
+      "title": "品牌魅力与荣衔加冕",
+      "mission": "产品实力到个人荣耀的阶梯式表达，建立清晰晋升信仰"
+    },
+    {
+      "type": "item",
+      "seq": 9,
+      "time": "18:45 - 18:50",
+      "chapter": "第二篇章",
+      "segment": "新秀奖：新人8星经销商表彰",
+      "mission": "聚焦新人标杆，强化可复制晋升路径。",
+      "content": "表彰新晋8星经销商，批量授证、授带并舞台合影。",
+      "av": "8星视觉特效；名单滚动；颁奖音乐。",
+      "owner": ""
+    },
+    {
+      "type": "item",
+      "seq": 10,
+      "time": "18:50 - 18:58",
+      "chapter": "第二篇章",
+      "segment": "天狮产品走秀",
+      "mission": "展现产品国际高端质感。",
+      "content": "模特手持核心营养保健品与日化产品完成T台展示。",
+      "av": "时尚BGM；灯光追踪；产品特写。",
+      "owner": ""
+    },
+    {
+      "type": "item",
+      "seq": 11,
+      "time": "18:58 - 19:07",
+      "chapter": "第二篇章",
+      "segment": "新晋铜狮颁奖",
+      "mission": "完成首阶荣誉批量授予。",
+      "content": "获奖者批量登台，领取荣誉证书。",
+      "av": "铜狮立体特效；动线引导。",
+      "owner": ""
+    },
+    {
+      "type": "item",
+      "seq": 12,
+      "time": "19:07 - 19:13",
+      "chapter": "第二篇章",
+      "segment": "新晋银狮颁奖",
+      "mission": "强化中坚层级荣誉认同。",
+      "content": "总部领导颁发银狮荣衔。",
+      "av": "银狮特效；名单滚动。",
+      "owner": ""
+    },
+    {
+      "type": "item",
+      "seq": 13,
+      "time": "19:13 - 19:20",
+      "chapter": "第二篇章",
+      "segment": "新晋金狮颁奖",
+      "mission": "塑造巅峰荣誉时刻。",
+      "content": "最高级别领导颁发金狮荣衔并合影。",
+      "av": "金色追光+礼炮音效。",
+      "owner": ""
+    },
+    {
+      "type": "chapter",
+      "time": "19:20 - 19:40",
+      "section": "第三篇章",
+      "title": "东方力量与狮军出征",
+      "mission": "以文化冲击承接情绪，导入战斗团队授勋"
+    },
+    {
+      "type": "item",
+      "seq": 14,
+      "time": "19:20 - 19:30",
+      "chapter": "第三篇章",
+      "segment": "中国武术表演",
+      "mission": "完成中非文化碰撞视听调剂。",
+      "content": "中国大鼓与武术团队呈现少林/太极表演。",
+      "av": "鼓点与灯光节奏同步。",
+      "owner": ""
+    },
+    {
+      "type": "item",
+      "seq": 15,
+      "time": "19:30 - 19:40",
+      "chapter": "第三篇章",
+      "segment": "狮军授勋（Armée des Lions）",
+      "mission": "突出核心战斗团队的象征地位。",
+      "content": "政府官员或总部领导为狮军骨干佩戴绶带/勋章。",
+      "av": "授勋名单核对；道具提前分组。",
+      "owner": ""
+    },
+    {
+      "type": "chapter",
+      "time": "19:40 - 20:30",
+      "section": "第四篇章",
+      "title": "极速引擎、狂欢派对与巅峰财富",
+      "mission": "演艺狂欢与硬件大奖交替轰炸，打造绝对情绪核爆点"
+    },
+    {
+      "type": "item",
+      "seq": 16,
+      "time": "19:40 - 19:55",
+      "chapter": "第四篇章",
+      "segment": "摩托车大奖（Prix Moto）",
+      "mission": "建立首轮财富冲击高潮。",
+      "content": "熄灯后引擎轰鸣，机车大灯齐亮，批量颁发车钥匙。",
+      "av": "低频引擎音效；机车灯控联动。",
+      "owner": ""
+    },
+    {
+      "type": "item",
+      "seq": 17,
+      "time": "19:55 - 20:05",
+      "chapter": "第四篇章",
+      "segment": "多哥本土重磅演艺狂欢",
+      "mission": "延续高能情绪并放大参与感。",
+      "content": "顶流歌手/舞团连唱2-3首Afrobeat快歌。",
+      "av": "艺人进退场计时；舞台安全员前置。",
+      "owner": ""
+    },
+    {
+      "type": "item",
+      "seq": 18,
+      "time": "20:05 - 20:15",
+      "chapter": "第四篇章",
+      "segment": "豪华汽车大奖（Prix Voiture）",
+      "mission": "完成阶层跃迁级奖励释放。",
+      "content": "巨幕豪车视觉转场后颁发豪华汽车大奖。",
+      "av": "豪车视觉包；礼仪道具到位。",
+      "owner": ""
+    },
+    {
+      "type": "item",
+      "seq": 19,
+      "time": "20:15 - 20:30",
+      "chapter": "第四篇章",
+      "segment": "豪华别墅大奖（Prix Villa）",
+      "mission": "揭晓终极梦想，拉满悬念。",
+      "content": "大屏播放别墅漫游，最高得主上台接金钥匙标牌。",
+      "av": "Confetti时码触发；全场追光。",
+      "owner": ""
+    },
+    {
+      "type": "chapter",
+      "time": "20:30 - 20:55",
+      "section": "第五篇章",
+      "title": "统帅出征与圆满落幕",
+      "mission": "把现场热度转化为下半年市场战斗力"
+    },
+    {
+      "type": "item",
+      "seq": 20,
+      "time": "20:30 - 20:45",
+      "chapter": "第五篇章",
+      "segment": "非洲区总裁压轴动员",
+      "mission": "将荣誉热度转化为行动号召。",
+      "content": "发布下半年激励政策，发起新一轮市场冲锋。",
+      "av": "总裁上场音乐；政策要点上屏。",
+      "owner": ""
+    },
+    {
+      "type": "item",
+      "seq": 21,
+      "time": "20:45 - 20:50",
+      "chapter": "第五篇章",
+      "segment": "压轴大合影",
+      "mission": "形成历史性收官影像资产。",
+      "content": "政府官员、总部领导与大奖得主同台合影。",
+      "av": "摄影机位预排；站位图执行。",
+      "owner": ""
+    },
+    {
+      "type": "item",
+      "seq": 22,
+      "time": "20:50 - 20:55",
+      "chapter": "第五篇章",
+      "segment": "欢送与退场",
+      "mission": "确保万人安全、有序撤离。",
+      "content": "主持人宣布闭幕，安保与场外引导同步执行。",
+      "av": "退场广播循环；外场探照灯开启。",
+      "owner": ""
+    }
+  ],
+  "branches": [
+    {
+      "seq": 1,
+      "country": "加纳",
+      "range": "500-1000",
+      "min": 500,
+      "max": 1000,
+      "note": "重点市场"
+    },
+    {
+      "seq": 2,
+      "country": "科特",
+      "range": "50",
+      "min": 50,
+      "max": 50,
+      "note": ""
+    },
+    {
+      "seq": 3,
+      "country": "喀麦隆",
+      "range": "20",
+      "min": 20,
+      "max": 20,
+      "note": ""
+    },
+    {
+      "seq": 4,
+      "country": "摩洛哥",
+      "range": "50-100",
+      "min": 50,
+      "max": 100,
+      "note": ""
+    },
+    {
+      "seq": 5,
+      "country": "尼日利亚",
+      "range": "5-10",
+      "min": 5,
+      "max": 10,
+      "note": ""
+    },
+    {
+      "seq": 6,
+      "country": "肯尼亚",
+      "range": "20-50",
+      "min": 20,
+      "max": 50,
+      "note": ""
+    },
+    {
+      "seq": 7,
+      "country": "南非",
+      "range": "5-10",
+      "min": 5,
+      "max": 10,
+      "note": ""
+    }
+  ],
+  "branchTotal": {
+    "label": "合计预计参会人数（经销商）",
+    "min": 650,
+    "max": 1240,
+    "note": "范围合计（最小-最大）"
+  },
+  "budget": {
+    "rows": [
+      {
+        "category": "舞台音响大屏",
+        "spec": "包含搭建、全套线阵列设备及调音大屏",
+        "cfa": 25000000,
+        "usd": 37878.7878787879
+      },
+      {
+        "category": "表演与艺人",
+        "spec": "多哥顶流艺人演唱 + 非洲传统战鼓舞蹈队",
+        "cfa": 1000000,
+        "usd": 1515.15151515152
+      },
+      {
+        "category": "供电保障",
+        "spec": "主备两台大型静音发电机及燃油费",
+        "cfa": 1000000,
+        "usd": 1515.15151515152
+      },
+      {
+        "category": "摄像与媒体",
+        "spec": "4机位现场大屏直播团队 + TVT电视台公关发稿费",
+        "cfa": 1500000,
+        "usd": 2272.72727272727
+      },
+      {
+        "category": "VIP 接待",
+        "spec": "政府官员及集团高管专属休息室冷餐、高端饮水与特服",
+        "cfa": 800000,
+        "usd": 1212.12121212121
+      },
+      {
+        "category": "医疗与急救",
+        "spec": "洛美红十字会现场驻点 + 2台救护车待命",
+        "cfa": 300000,
+        "usd": 454.545454545455
+      },
+      {
+        "category": "场地保洁",
+        "spec": "雇佣专业团队进行万人散场后的连夜深度清理",
+        "cfa": 500000,
+        "usd": 757.575757575758
+      },
+      {
+        "category": "场地租赁",
+        "spec": "BBS OMNISPORT 或同级体育馆（含进退场期）",
+        "cfa": "暂定",
+        "usd": "暂定"
+      },
+      {
+        "category": "座椅租赁",
+        "spec": "10,000把普通座椅 + 核心区高端软包椅",
+        "cfa": 2000000,
+        "usd": 3030.30303030303
+      },
+      {
+        "category": "安保防护栏",
+        "spec": "隔离舞台、VIP通道和引导1万人流的铁栅栏",
+        "cfa": 1000000,
+        "usd": 1515.15151515152
+      },
+      {
+        "category": "安保团队",
+        "spec": "100人本地安保公司 + 外围宪兵/交警疏导津贴",
+        "cfa": 1500000,
+        "usd": 2272.72727272727
+      },
+      {
+        "category": "现场装饰",
+        "spec": "巨型喷绘、VIP区红毯、舞台包边、指引牌及氛围灯带",
+        "cfa": 600000,
+        "usd": 909.090909090909
+      },
+      {
+        "category": "物料周边",
+        "spec": "门票，旗帜，证书奖杯等（国内订购）",
+        "cfa": "等待报价",
+        "usd": "等待报价"
+      },
+      {
+        "category": "饮水补给",
+        "spec": "大众区袋装水(Pure Water) + 高级经销商瓶装水",
+        "cfa": 1000000,
+        "usd": 1515.15151515152
+      },
+      {
+        "category": "不可预见费",
+        "spec": "备用金，应对突发采购或临时疏通关系",
+        "cfa": 1200000,
+        "usd": 1818.18181818182
+      }
+    ],
+    "total": {
+      "cfa": 37400000,
+      "usd": 56666.6666666667,
+      "overall": "65000-70000"
+    }
+  },
+  "materials": [
+    {
+      "seq": 1,
+      "group": "会场",
+      "item": "主视觉",
+      "material": "主视觉",
+      "subItem": "大屏KV",
+      "spec": "比例16x6",
+      "materialType": null,
+      "quantity": null,
+      "unitPrice": null,
+      "budget": null,
+      "process": "设计电子版",
+      "note": null,
+      "progress": "2026-03-25",
+      "pendingDetails": null
+    },
+    {
+      "seq": 2,
+      "group": "会场",
+      "item": "专属周年LOGO",
+      "material": "专属周年LOGO",
+      "subItem": null,
+      "spec": null,
+      "materialType": null,
+      "quantity": null,
+      "unitPrice": null,
+      "budget": null,
+      "process": null,
+      "note": null,
+      "progress": null,
+      "pendingDetails": null
+    },
+    {
+      "seq": 3,
+      "group": "会场",
+      "item": "门票",
+      "material": "门票",
+      "subItem": null,
+      "spec": null,
+      "materialType": null,
+      "quantity": null,
+      "unitPrice": null,
+      "budget": null,
+      "process": null,
+      "note": null,
+      "progress": null,
+      "pendingDetails": null
+    },
+    {
+      "seq": 4,
+      "group": "会场",
+      "item": "胸卡",
+      "material": "胸卡",
+      "subItem": null,
+      "spec": null,
+      "materialType": null,
+      "quantity": null,
+      "unitPrice": null,
+      "budget": null,
+      "process": null,
+      "note": null,
+      "progress": null,
+      "pendingDetails": null
+    },
+    {
+      "seq": 5,
+      "group": "会场",
+      "item": "节目单",
+      "material": "节目单",
+      "subItem": null,
+      "spec": null,
+      "materialType": null,
+      "quantity": null,
+      "unitPrice": null,
+      "budget": null,
+      "process": null,
+      "note": null,
+      "progress": null,
+      "pendingDetails": null
+    },
+    {
+      "seq": 6,
+      "group": "会场",
+      "item": "桌牌",
+      "material": "桌牌",
+      "subItem": null,
+      "spec": null,
+      "materialType": null,
+      "quantity": null,
+      "unitPrice": null,
+      "budget": null,
+      "process": null,
+      "note": null,
+      "progress": null,
+      "pendingDetails": null
+    },
+    {
+      "seq": 7,
+      "group": "会场",
+      "item": "手卡",
+      "material": "手卡",
+      "subItem": null,
+      "spec": null,
+      "materialType": null,
+      "quantity": null,
+      "unitPrice": null,
+      "budget": null,
+      "process": null,
+      "note": null,
+      "progress": null,
+      "pendingDetails": null
+    },
+    {
+      "seq": 8,
+      "group": "会场",
+      "item": "话筒LOGO套",
+      "material": "话筒LOGO套",
+      "subItem": null,
+      "spec": null,
+      "materialType": null,
+      "quantity": null,
+      "unitPrice": null,
+      "budget": null,
+      "process": null,
+      "note": null,
+      "progress": null,
+      "pendingDetails": null
+    },
+    {
+      "seq": 9,
+      "group": "会场",
+      "item": "签到合影墙",
+      "material": "签到合影墙",
+      "subItem": null,
+      "spec": null,
+      "materialType": null,
+      "quantity": null,
+      "unitPrice": null,
+      "budget": null,
+      "process": null,
+      "note": null,
+      "progress": null,
+      "pendingDetails": null
+    },
+    {
+      "seq": 10,
+      "group": "会场",
+      "item": "回头标/横幅",
+      "material": "回头标/横幅",
+      "subItem": null,
+      "spec": null,
+      "materialType": null,
+      "quantity": null,
+      "unitPrice": null,
+      "budget": null,
+      "process": null,
+      "note": null,
+      "progress": null,
+      "pendingDetails": null
+    },
+    {
+      "seq": 11,
+      "group": "会场",
+      "item": "道旗",
+      "material": "道旗",
+      "subItem": null,
+      "spec": "4.6米",
+      "materialType": null,
+      "quantity": null,
+      "unitPrice": "单面130",
+      "budget": null,
+      "process": null,
+      "note": null,
+      "progress": null,
+      "pendingDetails": null
+    },
+    {
+      "seq": 12,
+      "group": "会场",
+      "item": "门贴",
+      "material": "门贴",
+      "subItem": null,
+      "spec": null,
+      "materialType": null,
+      "quantity": null,
+      "unitPrice": null,
+      "budget": null,
+      "process": null,
+      "note": null,
+      "progress": null,
+      "pendingDetails": [
+        "别墅奖 10",
+        "新晋铜狮，银狮 各30个",
+        "车奖 50",
+        "新晋金狮 5"
+      ]
+    },
+    {
+      "seq": 13,
+      "group": "会场",
+      "item": "地贴",
+      "material": "地贴",
+      "subItem": null,
+      "spec": null,
+      "materialType": null,
+      "quantity": null,
+      "unitPrice": null,
+      "budget": null,
+      "process": null,
+      "note": null,
+      "progress": null,
+      "pendingDetails": [
+        "50个以上阶梯价"
+      ]
+    },
+    {
+      "seq": 14,
+      "group": "会场",
+      "item": "座贴",
+      "material": "座贴",
+      "subItem": null,
+      "spec": null,
+      "materialType": null,
+      "quantity": null,
+      "unitPrice": null,
+      "budget": null,
+      "process": null,
+      "note": null,
+      "progress": null,
+      "pendingDetails": [
+        "亚克力玻璃+底座",
+        "亚克力+镀铜",
+        "亚克力水晶",
+        "亚克力水晶"
+      ]
+    },
+    {
+      "seq": 15,
+      "group": "会场",
+      "item": "展架",
+      "material": "展架",
+      "subItem": null,
+      "spec": null,
+      "materialType": null,
+      "quantity": null,
+      "unitPrice": null,
+      "budget": null,
+      "process": null,
+      "note": null,
+      "progress": null,
+      "pendingDetails": [
+        "23.5×12.3cm",
+        "26x8cm",
+        "26x11cm",
+        "26x8cm",
+        "28.5x10",
+        "18x15cm",
+        "21x14cm"
+      ]
+    },
+    {
+      "seq": 16,
+      "group": "会场",
+      "item": "手举牌",
+      "material": "手举牌",
+      "subItem": null,
+      "spec": null,
+      "materialType": null,
+      "quantity": null,
+      "unitPrice": null,
+      "budget": null,
+      "process": null,
+      "note": null,
+      "progress": null,
+      "pendingDetails": [
+        "160元",
+        "48元",
+        "105元",
+        "150元",
+        "60元",
+        "55元（激光雕刻）",
+        "90元（激光雕刻）"
+      ]
+    },
+    {
+      "seq": 17,
+      "group": "会场",
+      "item": "封套",
+      "material": "封套",
+      "subItem": null,
+      "spec": null,
+      "materialType": null,
+      "quantity": null,
+      "unitPrice": null,
+      "budget": null,
+      "process": null,
+      "note": null,
+      "progress": null,
+      "pendingDetails": [
+        "可印图片，丝印",
+        "可印图片，丝印"
+      ]
+    },
+    {
+      "seq": 18,
+      "group": "会场",
+      "item": "证书",
+      "material": "证书",
+      "subItem": "新秀奖",
+      "spec": "A4",
+      "materialType": null,
+      "quantity": 150,
+      "unitPrice": 7,
+      "budget": 1050,
+      "process": "制作",
+      "note": null,
+      "progress": null,
+      "pendingDetails": [
+        "75元（丝印）",
+        "110元（丝印）"
+      ]
+    },
+    {
+      "seq": 19,
+      "group": "会场",
+      "item": "别墅奖",
+      "material": null,
+      "subItem": "别墅奖",
+      "spec": "23.5x12.4cm",
+      "materialType": null,
+      "quantity": 10,
+      "unitPrice": 150,
+      "budget": null,
+      "process": "定制",
+      "note": null,
+      "progress": null,
+      "pendingDetails": [
+        "A4",
+        "A4",
+        "A4"
+      ]
+    },
+    {
+      "seq": 20,
+      "group": "会场",
+      "item": "绶带",
+      "material": "绶带",
+      "subItem": null,
+      "spec": null,
+      "materialType": null,
+      "quantity": null,
+      "unitPrice": null,
+      "budget": null,
+      "process": "制作",
+      "note": null,
+      "progress": null,
+      "pendingDetails": [
+        "纸背壳4.5元",
+        "硬纸板6元",
+        "木框+亚克力面37.5元"
+      ]
+    },
+    {
+      "seq": 21,
+      "group": "会场",
+      "item": "奖项道具",
+      "material": "奖项道具",
+      "subItem": "旅游奖",
+      "spec": "80x40cm",
+      "materialType": "kt板",
+      "quantity": 150,
+      "unitPrice": "50/平",
+      "budget": 2250,
+      "process": "制作",
+      "note": null,
+      "progress": null,
+      "pendingDetails": [
+        "芯2.5元(珠光纸)",
+        "芯2.5元",
+        "芯2.5元"
+      ]
+    },
+    {
+      "seq": 22,
+      "group": "会场",
+      "item": "文化衫",
+      "material": "文化衫",
+      "subItem": null,
+      "spec": null,
+      "materialType": null,
+      "quantity": null,
+      "unitPrice": null,
+      "budget": null,
+      "process": "定制",
+      "note": null,
+      "progress": null,
+      "pendingDetails": null
+    },
+    {
+      "seq": 23,
+      "group": "会场",
+      "item": "手拍",
+      "material": "手拍",
+      "subItem": null,
+      "spec": null,
+      "materialType": null,
+      "quantity": 8000,
+      "unitPrice": 1.7,
+      "budget": null,
+      "process": "定制",
+      "note": null,
+      "progress": null,
+      "pendingDetails": null
+    },
+    {
+      "seq": 24,
+      "group": "会场",
+      "item": "大司旗",
+      "material": "大司旗",
+      "subItem": null,
+      "spec": "20x13m",
+      "materialType": null,
+      "quantity": 2,
+      "unitPrice": 3500,
+      "budget": 7000,
+      "process": "定制",
+      "note": null,
+      "progress": null,
+      "pendingDetails": [
+        "新秀奖150个",
+        "狮军 50",
+        "旅游奖 150"
+      ]
+    },
+    {
+      "seq": 26,
+      "group": "会场",
+      "item": "国旗",
+      "material": "国旗",
+      "subItem": null,
+      "spec": "2号，2400×1600mm",
+      "materialType": "旗帜布\n+喷绘",
+      "quantity": 42,
+      "unitPrice": "100/套",
+      "budget": 4200,
+      "process": "定制",
+      "note": "第一组（北非方向）：5个\n埃及、苏丹、利比亚、阿尔及利亚、摩洛哥\n\n第二组（东非方向）：5个\n索马里、吉布提、肯尼亚、坦桑尼亚、乌干达\n\n第三组（西非方向）：14个\n毛里塔尼亚、塞内加尔、冈比亚、马里、布基纳法索、几内亚、塞拉利昂、利比里亚、科特迪瓦、加纳、多哥、贝宁、尼日尔、尼日利亚\n\n第四组（中非方向）：6个\n乍得、喀麦隆、赤道几内亚、加蓬、刚果（布）、刚果（金）\n\n第五组（南部及岛国）：10个\n赞比亚、安哥拉、津巴布韦、马拉维、莫桑比克、博茨瓦纳、纳米比亚、南非、马达加斯加、毛里求斯\n\n中国、司旗",
+      "progress": null,
+      "pendingDetails": null
+    },
+    {
+      "seq": 27,
+      "group": "会场",
+      "item": "旗杆",
+      "material": "旗杆",
+      "subItem": null,
+      "spec": "3.8m",
+      "materialType": "不锈钢",
+      "quantity": null,
+      "unitPrice": null,
+      "budget": null,
+      "process": null,
+      "note": null,
+      "progress": null,
+      "pendingDetails": null
+    },
+    {
+      "seq": 28,
+      "group": "会场",
+      "item": "手摇小旗",
+      "material": "手摇小旗",
+      "subItem": null,
+      "spec": "21×14cm",
+      "materialType": "塑料杆+布",
+      "quantity": 10000,
+      "unitPrice": "分装1.2元",
+      "budget": 12000,
+      "process": "定制",
+      "note": null,
+      "progress": null,
+      "pendingDetails": null
+    },
+    {
+      "seq": 29,
+      "group": "屏幕",
+      "item": "大会ppt",
+      "material": "大会ppt",
+      "subItem": null,
+      "spec": null,
+      "materialType": null,
+      "quantity": null,
+      "unitPrice": null,
+      "budget": null,
+      "process": null,
+      "note": null,
+      "progress": null,
+      "pendingDetails": null
+    },
+    {
+      "seq": 30,
+      "group": "屏幕",
+      "item": "视频",
+      "material": "视频",
+      "subItem": "热场",
+      "spec": null,
+      "materialType": null,
+      "quantity": null,
+      "unitPrice": null,
+      "budget": null,
+      "process": null,
+      "note": null,
+      "progress": null,
+      "pendingDetails": null
+    },
+    {
+      "seq": 31,
+      "group": "屏幕",
+      "item": "致辞",
+      "material": null,
+      "subItem": "致辞",
+      "spec": null,
+      "materialType": null,
+      "quantity": null,
+      "unitPrice": null,
+      "budget": null,
+      "process": null,
+      "note": null,
+      "progress": null,
+      "pendingDetails": null
+    },
+    {
+      "seq": 32,
+      "group": "屏幕",
+      "item": "动态KV",
+      "material": null,
+      "subItem": "动态KV",
+      "spec": "4000x1500px",
+      "materialType": null,
+      "quantity": null,
+      "unitPrice": null,
+      "budget": null,
+      "process": null,
+      "note": null,
+      "progress": "2026-03-30",
+      "pendingDetails": null
+    },
+    {
+      "seq": 33,
+      "group": "屏幕",
+      "item": "奖项",
+      "material": null,
+      "subItem": "奖项",
+      "spec": null,
+      "materialType": null,
+      "quantity": null,
+      "unitPrice": null,
+      "budget": null,
+      "process": null,
+      "note": null,
+      "progress": null,
+      "pendingDetails": null
+    },
+    {
+      "seq": 34,
+      "group": "屏幕",
+      "item": "待补充",
+      "material": null,
+      "subItem": null,
+      "spec": null,
+      "materialType": null,
+      "quantity": null,
+      "unitPrice": null,
+      "budget": null,
+      "process": null,
+      "note": null,
+      "progress": null,
+      "pendingDetails": null
+    },
+    {
+      "seq": 35,
+      "group": "屏幕",
+      "item": "待补充",
+      "material": null,
+      "subItem": null,
+      "spec": null,
+      "materialType": null,
+      "quantity": null,
+      "unitPrice": null,
+      "budget": null,
+      "process": null,
+      "note": null,
+      "progress": null,
+      "pendingDetails": null
+    },
+    {
+      "seq": 36,
+      "group": "屏幕",
+      "item": "待补充",
+      "material": null,
+      "subItem": null,
+      "spec": null,
+      "materialType": null,
+      "quantity": null,
+      "unitPrice": null,
+      "budget": null,
+      "process": null,
+      "note": null,
+      "progress": null,
+      "pendingDetails": null
+    },
+    {
+      "seq": 37,
+      "group": "屏幕",
+      "item": "待补充",
+      "material": null,
+      "subItem": null,
+      "spec": null,
+      "materialType": null,
+      "quantity": null,
+      "unitPrice": null,
+      "budget": null,
+      "process": null,
+      "note": null,
+      "progress": null,
+      "pendingDetails": null
+    },
+    {
+      "seq": 38,
+      "group": "屏幕",
+      "item": "待补充",
+      "material": null,
+      "subItem": null,
+      "spec": null,
+      "materialType": null,
+      "quantity": null,
+      "unitPrice": null,
+      "budget": null,
+      "process": null,
+      "note": null,
+      "progress": null,
+      "pendingDetails": null
+    },
+    {
+      "seq": 39,
+      "group": "屏幕",
+      "item": "待补充",
+      "material": null,
+      "subItem": null,
+      "spec": null,
+      "materialType": null,
+      "quantity": null,
+      "unitPrice": null,
+      "budget": null,
+      "process": null,
+      "note": null,
+      "progress": null,
+      "pendingDetails": null
+    },
+    {
+      "seq": 40,
+      "group": "屏幕",
+      "item": "待补充",
+      "material": null,
+      "subItem": null,
+      "spec": null,
+      "materialType": null,
+      "quantity": null,
+      "unitPrice": null,
+      "budget": null,
+      "process": null,
+      "note": null,
+      "progress": null,
+      "pendingDetails": null
+    },
+    {
+      "seq": 41,
+      "group": "屏幕",
+      "item": "待补充",
+      "material": null,
+      "subItem": null,
+      "spec": null,
+      "materialType": null,
+      "quantity": null,
+      "unitPrice": null,
+      "budget": null,
+      "process": null,
+      "note": null,
+      "progress": null,
+      "pendingDetails": null
+    },
+    {
+      "seq": 42,
+      "group": "屏幕",
+      "item": "待补充",
+      "material": null,
+      "subItem": null,
+      "spec": null,
+      "materialType": null,
+      "quantity": null,
+      "unitPrice": null,
+      "budget": null,
+      "process": null,
+      "note": null,
+      "progress": null,
+      "pendingDetails": null
+    },
+    {
+      "seq": 43,
+      "group": "屏幕",
+      "item": "待补充",
+      "material": null,
+      "subItem": null,
+      "spec": null,
+      "materialType": null,
+      "quantity": null,
+      "unitPrice": null,
+      "budget": null,
+      "process": null,
+      "note": null,
+      "progress": null,
+      "pendingDetails": null
+    },
+    {
+      "seq": 44,
+      "group": "屏幕",
+      "item": "待补充",
+      "material": null,
+      "subItem": null,
+      "spec": null,
+      "materialType": null,
+      "quantity": null,
+      "unitPrice": null,
+      "budget": null,
+      "process": null,
+      "note": null,
+      "progress": null,
+      "pendingDetails": null
+    },
+    {
+      "seq": 45,
+      "group": "屏幕",
+      "item": "待补充",
+      "material": null,
+      "subItem": null,
+      "spec": null,
+      "materialType": null,
+      "quantity": null,
+      "unitPrice": null,
+      "budget": null,
+      "process": null,
+      "note": null,
+      "progress": null,
+      "pendingDetails": null
+    },
+    {
+      "seq": 46,
+      "group": "屏幕",
+      "item": "待补充",
+      "material": null,
+      "subItem": null,
+      "spec": null,
+      "materialType": null,
+      "quantity": null,
+      "unitPrice": null,
+      "budget": null,
+      "process": null,
+      "note": null,
+      "progress": null,
+      "pendingDetails": null
+    }
+  ],
+  "staffing": {
+    "groups": [
+      {
+        "group": "安保人员",
+        "total": 80,
+        "roles": [
+          {
+            "role": "安检",
+            "count": 20
+          },
+          {
+            "role": "场内维持秩序",
+            "count": 40
+          },
+          {
+            "role": "VIP区",
+            "count": 10
+          },
+          {
+            "role": "其他",
+            "count": 10
+          }
+        ]
+      },
+      {
+        "group": "志愿者人员",
+        "total": 70,
+        "roles": [
+          {
+            "role": "礼仪小姐",
+            "count": 10
+          },
+          {
+            "role": "引导入座",
+            "count": 50
+          },
+          {
+            "role": "VIP引导",
+            "count": 5
+          },
+          {
+            "role": "奖品区",
+            "count": 5
+          }
+        ]
+      },
+      {
+        "group": "会务组",
+        "total": 10,
+        "roles": [
+          {
+            "role": "奖品区",
+            "count": 2
+          },
+          {
+            "role": "音控",
+            "count": 2
+          },
+          {
+            "role": "屏幕",
+            "count": 1
+          },
+          {
+            "role": "后勤",
+            "count": 5
+          }
+        ]
+      },
+      {
+        "group": "总控组",
+        "total": 3,
+        "roles": [
+          {
+            "role": "总指挥",
+            "count": 1
+          },
+          {
+            "role": "控场",
+            "count": 1
+          },
+          {
+            "role": "导演",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "grandTotal": 163
+  },
+  "assets": {
+    "images": [
+      "主视觉.jpg",
+      "主视觉1.jpg",
+      "主视觉2.jpg",
+      "场地鸟瞰图.png",
+      "舞台效果图.png",
+      "狮军.jpg",
+      "新晋8星.jpg",
+      "旅游奖.jpg",
+      "摩托车奖.png",
+      "奖杯.png",
+      "手拍.png"
+    ],
+    "video": "主视觉视频动态效果.mp4",
+    "excels": [
+      "天狮2026非洲区表彰大会_官方执行总流程表.xlsx",
+      "大会预算.xlsx",
+      "大会物料(1).xlsx"
+    ]
+  }
+}
+;
