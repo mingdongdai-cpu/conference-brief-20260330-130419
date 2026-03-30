@@ -42,6 +42,7 @@ function sortGalleryImages(images) {
   const priority = [
     '场地鸟瞰图.png',
     '舞台效果图.png',
+    '展旗.png',
     '狮军.jpg',
     '新晋8星.jpg',
     '旅游奖.jpg',
