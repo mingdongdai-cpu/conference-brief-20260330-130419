@@ -263,6 +263,7 @@ main {
   overflow: hidden;
   box-shadow: 0 14px 40px rgba(2, 8, 22, 0.24);
   position: relative;
+  transition: transform 0.22s ease, border-color 0.22s ease, box-shadow 0.22s ease, opacity 0.22s ease;
 }
 
 .panel::before {
@@ -316,6 +317,16 @@ main {
   transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease;
 }
 
+.gallery:hover figure {
+  opacity: 0.5;
+  transform: scale(0.99);
+}
+
+.gallery:hover figure:hover {
+  opacity: 1;
+  transform: translateY(-2px) scale(1.01);
+}
+
 .gallery img {
   width: 100%;
   height: 100%;
@@ -362,6 +373,7 @@ main {
   border-radius: 0.76rem;
   padding: 0.78rem 0.92rem;
   background: linear-gradient(115deg, rgba(92, 67, 22, 0.35), rgba(25, 34, 58, 0.35));
+  transition: transform 0.22s ease, border-color 0.22s ease, opacity 0.22s ease, box-shadow 0.22s ease;
 }
 
 .timeline-chapter h3 {
@@ -380,6 +392,20 @@ main {
   border-radius: 0.78rem;
   background: linear-gradient(160deg, rgba(10, 31, 64, 0.96), rgba(8, 23, 47, 0.92));
   padding: 0.76rem 0.88rem;
+  transition: transform 0.22s ease, border-color 0.22s ease, opacity 0.22s ease, box-shadow 0.22s ease;
+}
+
+.timeline:hover .timeline-item,
+.timeline:hover .timeline-chapter {
+  opacity: 0.56;
+}
+
+.timeline:hover .timeline-item:hover,
+.timeline:hover .timeline-chapter:hover {
+  opacity: 1;
+  transform: translateX(4px);
+  border-color: rgba(234, 193, 109, 0.65);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.24);
 }
 
 .timeline-row-top {
@@ -454,8 +480,13 @@ tbody tr:nth-child(even) td {
   background: rgba(255, 255, 255, 0.02);
 }
 
+tbody:hover tr:not(:hover) td {
+  opacity: 0.46;
+}
+
 tr:hover td {
   background: rgba(255, 255, 255, 0.04);
+  opacity: 1;
 }
 
 .budget-table-wrap,
@@ -486,6 +517,14 @@ tr:hover td {
   padding: 0.92rem;
 }
 
+.download-list:hover .download-item {
+  opacity: 0.55;
+}
+
+.download-list:hover .download-item:hover {
+  opacity: 1;
+}
+
 .material-groups {
   display: grid;
   gap: 0.88rem;
@@ -497,6 +536,18 @@ tr:hover td {
   border-radius: 0.85rem;
   overflow: hidden;
   background: linear-gradient(160deg, rgba(10, 31, 64, 0.78), rgba(8, 23, 47, 0.72));
+  transition: transform 0.2s ease, border-color 0.2s ease, opacity 0.2s ease, box-shadow 0.2s ease;
+}
+
+.material-groups:hover .material-group-block {
+  opacity: 0.58;
+}
+
+.material-groups:hover .material-group-block:hover {
+  opacity: 1;
+  transform: translateY(-2px);
+  border-color: rgba(234, 193, 109, 0.58);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.22);
 }
 
 .material-group-head {
@@ -542,12 +593,24 @@ tr:hover td {
   border: 1px solid rgba(173, 201, 247, 0.24);
   background: var(--surface-soft);
   padding: 0.72rem;
-  transition: transform 0.18s ease, border-color 0.2s ease;
+  transition: transform 0.18s ease, border-color 0.2s ease, opacity 0.2s ease, box-shadow 0.2s ease;
 }
 
 .download-item:hover {
   transform: translateY(-2px);
   border-color: rgba(234, 193, 109, 0.6);
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.24);
+}
+
+.insight-grid:hover .panel {
+  opacity: 0.6;
+}
+
+.insight-grid:hover .panel:hover {
+  opacity: 1;
+  transform: translateY(-3px) scale(1.01);
+  border-color: rgba(234, 193, 109, 0.62);
+  box-shadow: 0 16px 34px rgba(0, 0, 0, 0.26);
 }
 
 .download-name {
