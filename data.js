@@ -81,23 +81,23 @@ window.CONFERENCE_DATA =
     {
       "type": "item",
       "seq": 6,
-      "time": "18:08 - 18:13",
-      "chapter": "第一篇章",
-      "segment": "东道主致欢迎词",
-      "mission": "完成官方欢迎与东道主表达。",
-      "content": "多哥分公司经理致辞并欢迎非洲各国代表团。",
-      "av": "讲台麦启用；欢迎词主题板上屏。",
-      "owner": ""
-    },
-    {
-      "type": "item",
-      "seq": 7,
-      "time": "18:13 - 18:23",
+      "time": "18:08 - 18:18",
       "chapter": "第一篇章",
       "segment": "董事局主席致辞（视频）",
       "mission": "传达最高战略指示。",
       "content": "播放董事局主席高清演讲视频。",
       "av": "视频服务器A/B备份；字幕核对。",
+      "owner": ""
+    },
+    {
+      "type": "item",
+      "seq": 7,
+      "time": "18:18 - 18:23",
+      "chapter": "第一篇章",
+      "segment": "东道主致欢迎词",
+      "mission": "完成官方欢迎与东道主表达。",
+      "content": "多哥分公司经理致辞并欢迎非洲各国代表团。",
+      "av": "讲台麦启用；欢迎词主题板上屏。",
       "owner": ""
     },
     {
@@ -1353,7 +1353,8 @@ window.CONFERENCE_DATA =
       "摩托车奖.png",
       "奖杯.png",
       "手拍.png",
-      "展旗.png"
+      "展旗.png",
+      "签到板预览图.png"
     ],
     "video": "主视觉视频动态效果.mp4",
     "excels": [

@@ -42,6 +42,7 @@ function sortGalleryImages(images) {
   const priority = [
     '场地鸟瞰图.png',
     '舞台效果图.png',
+    '签到板预览图.png',
     '展旗.png',
     '狮军.jpg',
     '新晋8星.jpg',
@@ -213,15 +214,20 @@ function renderTimeline(data) {
     .map((node) => {
       if (node.type === 'chapter') {
         return `
-          <article class="timeline-chapter fade-in">
-            <h3>${node.section} · ${node.title}</h3>
-            <p><strong>${node.time}</strong> ｜ 核心任务：${node.mission || '-'}</p>
+          <article class="timeline-chapter timeline-node fade-in">
+            <div class="timeline-chapter-meta">
+              <span class="timeline-time">${node.time || '-'}</span>
+              <span class="timeline-sep">•</span>
+              <span class="timeline-section">${node.section || '-'}</span>
+            </div>
+            <h3>${node.title || '-'}</h3>
+            <p>核心任务：${node.mission || '-'}</p>
           </article>
         `;
       }
 
       return `
-        <article class="timeline-item fade-in">
+        <article class="timeline-item timeline-node fade-in">
           <div class="timeline-row-top">
             <span class="timeline-tag">#${node.seq} ${node.chapter || ''}</span>
             <span class="timeline-time">${node.time || '-'}</span>
@@ -234,6 +240,41 @@ function renderTimeline(data) {
       `;
     })
     .join('');
+}
+
+function renderFlowQuick(data) {
+  const branchEl = el('#flowBranchQuick');
+  const budgetEl = el('#flowBudgetQuick');
+  if (!branchEl || !budgetEl) return;
+
+  const branchRows = (data.branches || [])
+    .slice(0, 4)
+    .map(
+      (row) => `
+      <tr>
+        <td>${row.country || '-'}</td>
+        <td>${row.range || '-'}</td>
+      </tr>
+    `,
+    )
+    .join('');
+
+  const budgetRows = (data.budget?.rows || [])
+    .slice(0, 4)
+    .map((row) => {
+      const cfa = parseNumber(row.cfa);
+      const cfaText = cfa === null ? row.cfa || '-' : formatNumber(cfa);
+      return `
+      <tr>
+        <td>${row.category || '-'}</td>
+        <td>${cfaText}</td>
+      </tr>
+    `;
+    })
+    .join('');
+
+  branchEl.innerHTML = branchRows;
+  budgetEl.innerHTML = budgetRows;
 }
 
 function renderAttendance(data) {
@@ -433,6 +474,7 @@ async function init() {
     renderMeta(data);
     renderGallery(data);
     renderTimeline(data);
+    renderFlowQuick(data);
     renderAttendance(data);
     renderBudget(data);
     renderStaffing(data);
