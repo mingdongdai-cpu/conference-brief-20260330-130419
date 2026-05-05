@@ -11,7 +11,7 @@ window.CONFERENCE_DATA =
   "timeline": [
     {
       "type": "chapter",
-      "time": "16:00 - 18:00",
+      "time": "15:00 - 17:00",
       "section": "预热篇章",
       "title": "万人集结与狂欢热场",
       "mission": "完成万人入场安检，拉升现场温度，完成开场前全链路确认"
@@ -19,7 +19,7 @@ window.CONFERENCE_DATA =
     {
       "type": "item",
       "seq": 1,
-      "time": "16:00 - 17:20",
+      "time": "15:00 - 16:20",
       "chapter": "预热篇章",
       "segment": "万人入场 & 区域拉歌",
       "mission": "万人有序入场与安检，快速完成分区落位。",
@@ -30,7 +30,7 @@ window.CONFERENCE_DATA =
     {
       "type": "item",
       "seq": 2,
-      "time": "17:20 - 17:32",
+      "time": "16:20 - 16:32",
       "chapter": "预热篇章",
       "segment": "热场高潮：天狮专属舞蹈秀",
       "mission": "完成开场前第一轮情绪点火。",
@@ -41,7 +41,7 @@ window.CONFERENCE_DATA =
     {
       "type": "item",
       "seq": 3,
-      "time": "17:32 - 17:48",
+      "time": "16:32 - 16:48",
       "chapter": "预热篇章",
       "segment": "非洲各国方阵举旗入场",
       "mission": "强化国际阵容展示与仪式感。",
@@ -52,7 +52,7 @@ window.CONFERENCE_DATA =
     {
       "type": "item",
       "seq": 4,
-      "time": "17:48 - 18:00",
+      "time": "16:48 - 17:00",
       "chapter": "预热篇章",
       "segment": "VIP莅临 & 倒计时准备",
       "mission": "确保VIP准时入座并完成开场倒计时准备。",
@@ -62,7 +62,7 @@ window.CONFERENCE_DATA =
     },
     {
       "type": "chapter",
-      "time": "18:00 - 18:45",
+      "time": "17:00 - 17:45",
       "section": "第一篇章",
       "title": "盛典启幕与领袖愿景",
       "mission": "准点开场，建立国家级礼仪感与政商共赢格局"
@@ -70,7 +70,7 @@ window.CONFERENCE_DATA =
     {
       "type": "item",
       "seq": 5,
-      "time": "18:00 - 18:08",
+      "time": "17:00 - 17:08",
       "chapter": "第一篇章",
       "segment": "庄严时刻：三国/司歌联奏",
       "mission": "塑造仪式感与国际礼仪标准。",
@@ -81,7 +81,7 @@ window.CONFERENCE_DATA =
     {
       "type": "item",
       "seq": 6,
-      "time": "18:08 - 18:18",
+      "time": "17:08 - 17:18",
       "chapter": "第一篇章",
       "segment": "董事局主席致辞（视频）",
       "mission": "传达最高战略指示。",
@@ -92,7 +92,7 @@ window.CONFERENCE_DATA =
     {
       "type": "item",
       "seq": 7,
-      "time": "18:18 - 18:23",
+      "time": "17:18 - 17:23",
       "chapter": "第一篇章",
       "segment": "东道主致欢迎词",
       "mission": "完成官方欢迎与东道主表达。",
@@ -103,7 +103,7 @@ window.CONFERENCE_DATA =
     {
       "type": "item",
       "seq": 8,
-      "time": "18:23 - 18:33",
+      "time": "17:23 - 17:33",
       "chapter": "第一篇章",
       "segment": "高级经销商代表致辞",
       "mission": "通过真实案例拉升台下渴望。",
@@ -114,7 +114,7 @@ window.CONFERENCE_DATA =
     {
       "type": "item",
       "seq": 9,
-      "time": "18:33 - 18:45",
+      "time": "17:33 - 17:45",
       "chapter": "第一篇章",
       "segment": "多哥政府官员致辞",
       "mission": "形成国家级官方背书。",
@@ -124,7 +124,7 @@ window.CONFERENCE_DATA =
     },
     {
       "type": "chapter",
-      "time": "18:45 - 19:20",
+      "time": "17:45 - 18:20",
       "section": "第二篇章",
       "title": "品牌魅力与荣衔加冕",
       "mission": "产品实力到个人荣耀的阶梯式表达，建立清晰晋升信仰"
@@ -132,7 +132,7 @@ window.CONFERENCE_DATA =
     {
       "type": "item",
       "seq": 10,
-      "time": "18:45 - 18:50",
+      "time": "17:45 - 17:50",
       "chapter": "第二篇章",
       "segment": "新秀奖：新人8星经销商表彰",
       "mission": "聚焦新人标杆，强化可复制晋升路径。",
@@ -143,7 +143,7 @@ window.CONFERENCE_DATA =
     {
       "type": "item",
       "seq": 11,
-      "time": "18:50 - 19:00",
+      "time": "17:50 - 18:00",
       "chapter": "第二篇章",
       "segment": "天狮产品走秀",
       "mission": "展现产品国际高端质感。",
@@ -154,7 +154,7 @@ window.CONFERENCE_DATA =
     {
       "type": "item",
       "seq": 12,
-      "time": "19:00 - 19:09",
+      "time": "18:00 - 18:09",
       "chapter": "第二篇章",
       "segment": "新晋铜狮颁奖",
       "mission": "完成首阶荣誉批量授予。",
@@ -165,7 +165,7 @@ window.CONFERENCE_DATA =
     {
       "type": "item",
       "seq": 13,
-      "time": "19:09 - 19:15",
+      "time": "18:09 - 18:15",
       "chapter": "第二篇章",
       "segment": "新晋银狮颁奖",
       "mission": "强化中坚层级荣誉认同。",
@@ -176,7 +176,7 @@ window.CONFERENCE_DATA =
     {
       "type": "item",
       "seq": 14,
-      "time": "19:15 - 19:20",
+      "time": "18:15 - 18:20",
       "chapter": "第二篇章",
       "segment": "新晋金狮颁奖",
       "mission": "塑造巅峰荣誉时刻。",
@@ -186,7 +186,7 @@ window.CONFERENCE_DATA =
     },
     {
       "type": "chapter",
-      "time": "19:20 - 19:40",
+      "time": "18:20 - 18:40",
       "section": "第三篇章",
       "title": "东方力量与狮军出征",
       "mission": "以文化冲击承接情绪，导入战斗团队授勋"
@@ -194,7 +194,7 @@ window.CONFERENCE_DATA =
     {
       "type": "item",
       "seq": 15,
-      "time": "19:20 - 19:29",
+      "time": "18:20 - 18:29",
       "chapter": "第三篇章",
       "segment": "中国武术表演",
       "mission": "完成中非文化碰撞视听调剂。",
@@ -205,7 +205,7 @@ window.CONFERENCE_DATA =
     {
       "type": "item",
       "seq": 16,
-      "time": "19:29 - 19:36",
+      "time": "18:29 - 18:36",
       "chapter": "第三篇章",
       "segment": "狮军授勋（Armée des Lions）",
       "mission": "突出核心战斗团队的象征地位。",
@@ -216,7 +216,7 @@ window.CONFERENCE_DATA =
     {
       "type": "item",
       "seq": 17,
-      "time": "19:36 - 19:40",
+      "time": "18:36 - 18:40",
       "chapter": "第三篇章",
       "segment": "双旗接力展开仪式",
       "mission": "通过高规格旗阵仪式强化团队精神与领袖象征。",
@@ -226,7 +226,7 @@ window.CONFERENCE_DATA =
     },
     {
       "type": "chapter",
-      "time": "19:40 - 20:30",
+      "time": "18:40 - 19:50",
       "section": "第四篇章",
       "title": "极速引擎、狂欢派对与巅峰财富",
       "mission": "演艺狂欢与硬件大奖交替轰炸，打造绝对情绪核爆点"
@@ -234,7 +234,7 @@ window.CONFERENCE_DATA =
     {
       "type": "item",
       "seq": 18,
-      "time": "19:40 - 19:54",
+      "time": "18:40 - 18:54",
       "chapter": "第四篇章",
       "segment": "摩托车大奖（Prix Moto）",
       "mission": "建立首轮财富冲击高潮。",
@@ -245,7 +245,18 @@ window.CONFERENCE_DATA =
     {
       "type": "item",
       "seq": 19,
-      "time": "19:54 - 20:06",
+      "time": "18:54 - 19:14",
+      "chapter": "第四篇章",
+      "segment": "旅游大奖（Prix Voyage）",
+      "mission": "在硬件大奖后延续财富刺激，强化国际出行激励。",
+      "content": "公布旅游大奖名单，获奖代表上台领取旅行权益与荣誉道具并合影。",
+      "av": "旅行目的地视觉包+庆祝音乐+暖金灯光渐进。",
+      "owner": ""
+    },
+    {
+      "type": "item",
+      "seq": 20,
+      "time": "19:14 - 19:26",
       "chapter": "第四篇章",
       "segment": "多哥本土重磅演艺狂欢",
       "mission": "延续高能情绪并放大参与感。",
@@ -255,8 +266,8 @@ window.CONFERENCE_DATA =
     },
     {
       "type": "item",
-      "seq": 20,
-      "time": "20:06 - 20:17",
+      "seq": 21,
+      "time": "19:26 - 19:37",
       "chapter": "第四篇章",
       "segment": "豪华汽车大奖（Prix Voiture）",
       "mission": "完成阶层跃迁级奖励释放。",
@@ -266,8 +277,8 @@ window.CONFERENCE_DATA =
     },
     {
       "type": "item",
-      "seq": 21,
-      "time": "20:17 - 20:30",
+      "seq": 22,
+      "time": "19:37 - 19:50",
       "chapter": "第四篇章",
       "segment": "豪华别墅大奖（Prix Villa）",
       "mission": "揭晓终极梦想，拉满悬念。",
@@ -277,15 +288,15 @@ window.CONFERENCE_DATA =
     },
     {
       "type": "chapter",
-      "time": "20:30 - 20:55",
+      "time": "19:50 - 20:15",
       "section": "第五篇章",
       "title": "统帅出征与圆满落幕",
       "mission": "把现场热度转化为下半年市场战斗力"
     },
     {
       "type": "item",
-      "seq": 22,
-      "time": "20:30 - 20:43",
+      "seq": 23,
+      "time": "19:50 - 20:03",
       "chapter": "第五篇章",
       "segment": "非洲区总裁压轴动员",
       "mission": "将荣誉热度转化为行动号召。",
@@ -295,8 +306,8 @@ window.CONFERENCE_DATA =
     },
     {
       "type": "item",
-      "seq": 23,
-      "time": "20:43 - 20:49",
+      "seq": 24,
+      "time": "20:03 - 20:09",
       "chapter": "第五篇章",
       "segment": "压轴大合影",
       "mission": "形成历史性收官影像资产。",
@@ -306,8 +317,8 @@ window.CONFERENCE_DATA =
     },
     {
       "type": "item",
-      "seq": 24,
-      "time": "20:49 - 20:55",
+      "seq": 25,
+      "time": "20:09 - 20:15",
       "chapter": "第五篇章",
       "segment": "欢送与退场",
       "mission": "确保万人安全、有序撤离。",
@@ -1346,7 +1357,6 @@ window.CONFERENCE_DATA =
       "主视觉1.jpg",
       "主视觉2.jpg",
       "场地鸟瞰图.png",
-      "舞台效果图.png",
       "狮军.jpg",
       "新晋8星.jpg",
       "旅游奖.jpg",
@@ -1354,7 +1364,10 @@ window.CONFERENCE_DATA =
       "奖杯.png",
       "手拍.png",
       "展旗.png",
-      "签到板预览图.jpg"
+      "签到板预览图.jpg",
+      "舞台俯视角.png",
+      "舞台鸟瞰图.png",
+      "舞台正面视角.png"
     ],
     "video": "主视觉视频动态效果.mp4",
     "excels": [
